@@ -1,0 +1,30 @@
+baseURL = "https://mcmastercce.github.io/cdd/"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+publishDir = "docs"
+
+title = "McMaster CCE Course Development Documentation"
+theme = "hugo-theme-learn"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+
+[params]
+  editURL = ""
+  description = "McMaster CCE"
+  author = "McMaster CCE Course Development Team"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+# Change default color scheme with a variant one. Can be "red", "blue", "green".
+  themeVariant = "mine"
+  Shortcuts-Title= "Additional Resources"
+  
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[Languages]
+[Languages.en]
+title = "McMaster CCE"
+weight = 1
+languageName = "English"
+

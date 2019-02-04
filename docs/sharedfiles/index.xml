@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shared Files on McMaster CCE</title>
+    <link>https://mcmastercce.github.io/cdd/sharedfiles/</link>
+    <description>Recent content in Shared Files on McMaster CCE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="https://mcmastercce.github.io/cdd/sharedfiles/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dropbox</title>
+      <link>https://mcmastercce.github.io/cdd/sharedfiles/dropbox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcmastercce.github.io/cdd/sharedfiles/dropbox/</guid>
+      <description>We use Dropbox to share files. The following table lists the files that you will use for integration located in the Dropbox/CCE Development - Templates/6. LST Templates folder. If you have not been added to our Dropbox contact an LST.
+The files in the Dropbox get updated frequently. Always grab a new copy of these files before beginning integration of a course.
+ Location Purpose    Default Turnitin Settings.</description>
+    </item>
+    
+    <item>
+      <title>Internal Files</title>
+      <link>https://mcmastercce.github.io/cdd/sharedfiles/internalfiles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcmastercce.github.io/cdd/sharedfiles/internalfiles/</guid>
+      <description>The following information is for internal LSTs.
+Below you will find details on where internal network share files are located and the purpose that they serve.
+ Location Purpose    N:\CCE Course Development Internal course development team folder.  N:\CCE Course Development\Courses Within a particular course folder there are course development files and a copy of all of the files as the appear in the Manage Files area of the course in Avenue.</description>
+    </item>
+    
+    <item>
+      <title>CCE Course Template</title>
+      <link>https://mcmastercce.github.io/cdd/sharedfiles/ccetemplate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcmastercce.github.io/cdd/sharedfiles/ccetemplate/</guid>
+      <description>The CCE Course Template in Avenue contains all of the neccessary files and Grade settings to begin integrating a course. Copy all componeents from the CCE Course Template into your course master shell before beginning integration.
+If you are not able to access the CCE Course Template in Avenue contact an LST. You are required to have a MacID to access Avenue.
+Template Files The following table provides a breakdown of the various files and folders in the Manage Files(Course Admin &amp;gt; Manage Files) area of the CCE Course Template.</description>
+    </item>
+    
+  </channel>
+</rss>
