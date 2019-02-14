@@ -51,8 +51,8 @@ The following table provides a breakdown of the various files and folders in the
 
 Browse through the CCE Course Template content to familiarize yourself with the structure of a page.
 
-## Custom Classes
-Custom CCE classes have been added to the stylesheet.
+## Custom CSS Classes
+Custom CSS classes have been added to the stylesheet.
 
 ### List Types
 The list type attribute is obsolete. To accomodate custom list types the following classes are available.
