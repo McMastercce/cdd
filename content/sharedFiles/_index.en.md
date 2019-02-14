@@ -7,5 +7,5 @@ chapter: true
 
 # CCE Course Template
 
-Before beggining integration you will need to download several files. This section contains details on where these are located and the purpose that they serve.
+Before beginning integration you will need to download several files. This section contains details on where these are located and the purpose that they serve.
 
