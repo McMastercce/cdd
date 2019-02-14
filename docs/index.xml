@@ -11,6 +11,17 @@
     
     
     <item>
+      <title>CCE Course Template</title>
+      <link>https://mcmastercce.github.io/cdd/ccecoursetemplate/ccetemplate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcmastercce.github.io/cdd/ccecoursetemplate/ccetemplate/</guid>
+      <description>Before beginning integration, copy all componeents from the CCE Course Template in Avenue into your course master shell.
+If you are not able to access the CCE Course Template in Avenue contact an LST. You are required to have a MacID to access Avenue.
+Manage Files The following table provides a breakdown of the various files and folders in the Manage Files(Course Admin &amp;gt; Manage Files) area of the CCE Course Template.</description>
+    </item>
+    
+    <item>
       <title>Dropbox</title>
       <link>https://mcmastercce.github.io/cdd/sharedfiles/dropbox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -33,14 +44,14 @@ The files in the Dropbox get updated frequently. Always grab a new copy of these
     </item>
     
     <item>
-      <title>CCE Course Template</title>
-      <link>https://mcmastercce.github.io/cdd/sharedfiles/ccetemplate/</link>
+      <title>Program Colours</title>
+      <link>https://mcmastercce.github.io/cdd/ccecoursetemplate/programcolours/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mcmastercce.github.io/cdd/sharedfiles/ccetemplate/</guid>
-      <description>The CCE Course Template in Avenue contains all of the neccessary files and Grade settings to begin integrating a course. Copy all componeents from the CCE Course Template into your course master shell before beginning integration.
-If you are not able to access the CCE Course Template in Avenue contact an LST. You are required to have a MacID to access Avenue.
-Template Files The following table provides a breakdown of the various files and folders in the Manage Files(Course Admin &amp;gt; Manage Files) area of the CCE Course Template.</description>
+      <guid>https://mcmastercce.github.io/cdd/ccecoursetemplate/programcolours/</guid>
+      <description>The following program colours are used in the CCE Templates.
+The desaturated and secondary colours are not selectable as CSS classes. The secondary colour is used as the icon colours for certain headings. The desaturated colour is auto SASS generated based on the primary colour. It is used for table headings where text is white.
+ </description>
     </item>
     
   </channel>

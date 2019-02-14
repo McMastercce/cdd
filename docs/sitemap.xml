@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mcmastercce.github.io/cdd/sharedfiles/</loc>
+    <loc>https://mcmastercce.github.io/cdd/ccecoursetemplate/ccetemplate/</loc>
   </url>
   
   <url>
@@ -11,11 +11,19 @@
   </url>
   
   <url>
+    <loc>https://mcmastercce.github.io/cdd/sharedfiles/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mcmastercce.github.io/cdd/ccecoursetemplate/</loc>
+  </url>
+  
+  <url>
     <loc>https://mcmastercce.github.io/cdd/sharedfiles/internalfiles/</loc>
   </url>
   
   <url>
-    <loc>https://mcmastercce.github.io/cdd/sharedfiles/ccetemplate/</loc>
+    <loc>https://mcmastercce.github.io/cdd/ccecoursetemplate/programcolours/</loc>
   </url>
   
   <url>
