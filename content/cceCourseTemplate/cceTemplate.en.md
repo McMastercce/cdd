@@ -83,7 +83,7 @@ square
 
 ## Hyperlinks
 
-Hyperlinks that are pointing to external content, not hosted in Avenue, must open in a new tab. Thet must also include an additional class and text for screen readers in a \<span> attribute.
+Hyperlinks that are pointing to external content, not hosted in Avenue, must open in a new tab. They must also include an additional class and text for screen readers in a \<span> attribute.
 
 {{% notice info %}}
 The \<span> attribute should not be included on any hyperlinks that don't have the cce stylesheet attached. For example, if there is a link in the description of a discussion topic, exclude the \<span> attribute.
