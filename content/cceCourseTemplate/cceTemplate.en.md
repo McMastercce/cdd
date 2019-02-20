@@ -71,13 +71,13 @@ The list type attribute is obsolete. To accomodate custom list types the followi
 <iframe width="100%" height="175" src="//jsfiddle.net/ccecrsdv/r6nezstL/embedded/result,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 #### Unordered
-noType
+##### noType
 <iframe width="100%" height="175" src="//jsfiddle.net/ccecrsdv/751qomuL/embedded/result,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-circle
+##### circle
 <iframe width="100%" height="175" src="//jsfiddle.net/ccecrsdv/7vhqaz36/embedded/result,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-square
+##### square
 <iframe width="100%" height="175" src="//jsfiddle.net/ccecrsdv/z0bhv5Ly/embedded/result,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
    
 
