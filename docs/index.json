@@ -42,6 +42,13 @@
 	"content": "The following program colours are used in the CCE Templates.\nThe desaturated and secondary colours are not selectable as CSS classes. The secondary colour is used as the icon colours for certain headings. The desaturated colour is auto SASS generated based on the primary colour. It is used for table headings where text is white.\n\r "
 },
 {
+	"uri": "https://mcmastercce.github.io/cdd/contact/",
+	"title": "Contact",
+	"tags": [],
+	"description": "",
+	"content": " Contact If you have any questions related to this documentation contact an LST.\n"
+},
+{
 	"uri": "https://mcmastercce.github.io/cdd/categories/",
 	"title": "Categories",
 	"tags": [],
