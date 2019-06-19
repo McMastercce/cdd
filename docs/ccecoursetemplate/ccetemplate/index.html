@@ -15,19 +15,19 @@
     <link rel="stylesheet" href="https://mcmastercce.github.io/cdd/scss/main.min.b771688eab6df9d614aafda71d2769c629c1f600ec8db9329be4ce52a8c952d3.css" integrity="sha256-t3Fojqtt&#43;dYUqv2nHSdpxinB9gDsjbkym&#43;TOUqjJUtM=" media="screen">
 
     
-    <link href="/cdd/css/nucleus.css?1550692774" rel="stylesheet">
-    <link href="/cdd/css/fontawesome-all.min.css?1550692774" rel="stylesheet">
-    <link href="/cdd/css/hybrid.css?1550692774" rel="stylesheet">
-    <link href="/cdd/css/featherlight.min.css?1550692774" rel="stylesheet">
-    <link href="/cdd/css/perfect-scrollbar.min.css?1550692774" rel="stylesheet">
-    <link href="/cdd/css/auto-complete.css?1550692774" rel="stylesheet">
-    <link href="/cdd/css/theme.css?1550692774" rel="stylesheet">
-    <link href="/cdd/css/hugo-theme.css?1550692774" rel="stylesheet">
+    <link href="/cdd/css/nucleus.css?1560967230" rel="stylesheet">
+    <link href="/cdd/css/fontawesome-all.min.css?1560967230" rel="stylesheet">
+    <link href="/cdd/css/hybrid.css?1560967230" rel="stylesheet">
+    <link href="/cdd/css/featherlight.min.css?1560967230" rel="stylesheet">
+    <link href="/cdd/css/perfect-scrollbar.min.css?1560967230" rel="stylesheet">
+    <link href="/cdd/css/auto-complete.css?1560967230" rel="stylesheet">
+    <link href="/cdd/css/theme.css?1560967230" rel="stylesheet">
+    <link href="/cdd/css/hugo-theme.css?1560967230" rel="stylesheet">
     
-      <link href="/cdd/css/theme-mine.css?1550692774" rel="stylesheet">
+      <link href="/cdd/css/theme-mine.css?1560967230" rel="stylesheet">
     
 
-    <script src="/cdd/js/jquery-2.x.min.js?1550692774"></script>
+    <script src="/cdd/js/jquery-2.x.min.js?1560967230"></script>
 
     <script src="cdd/js/bootstrap.min.js"></script>
 
@@ -59,14 +59,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/cdd/js/lunr.min.js?1550692774"></script>
-<script type="text/javascript" src="/cdd/js/auto-complete.js?1550692774"></script>
+<script type="text/javascript" src="/cdd/js/lunr.min.js?1560967230"></script>
+<script type="text/javascript" src="/cdd/js/auto-complete.js?1560967230"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/mcmastercce.github.io\/cdd\/";
     
 </script>
-<script type="text/javascript" src="/cdd/js/search.js?1550692774"></script>
+<script type="text/javascript" src="/cdd/js/search.js?1560967230"></script>
 
     
   </div>
@@ -322,6 +322,7 @@
 <li>
 <ul>
 <li><a href="#manage-files">Manage Files</a></li>
+<li><a href="#markup-for-embedding-youtube-videos">Markup for Embedding YouTube Videos</a></li>
 <li><a href="#custom-css-classes">Custom CSS Classes</a>
 <ul>
 <li><a href="#list-types">List Types</a>
@@ -365,7 +366,7 @@
 
 
 
-<p>Before beginning integration, copy all componeents from the CCE Course Template in Avenue into your course master shell.</p>
+<p>Before beginning integration, copy all components from the CCE Course Template in Avenue into your course master shell.</p>
 
 <div class="notices note" ><p>If you are not able to access the CCE Course Template in Avenue contact an LST. You are required to have a MacID to access Avenue.</p>
 </div>
@@ -412,6 +413,36 @@
 
 <p>Browse through the CCE Course Template content to familiarize yourself with the structure of a page.</p>
 
+<h2 id="markup-for-embedding-youtube-videos">Markup for Embedding YouTube Videos</h2>
+
+<p>Copy and modify the following markup when embedding YouTube videos.</p>
+
+<pre><code class="language-html">&lt;div class=&quot;row justify-content-center&quot;&gt;
+    &lt;div class=&quot;col-sm-10&quot;&gt;
+        &lt;div class=&quot;card px-1&quot;&gt;
+
+            &lt;!-- Update the following line with the title of the video, the length of the video, and the transcript href --&gt;
+            &lt;p class=&quot;mb-1&quot;&gt;&lt;strong&gt;Module 1: Introduction&lt;/strong&gt; (1:18 min) | &lt;a href=&quot;../../media/html/m01-transcript-01.html&quot; target=&quot;_blank&quot;&gt;Transcript&lt;span class=&quot;sr-only&quot;&gt; (opens in a new tab)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+            
+            &lt;!-- Update the following element with the url to the YouTube hosted video --&gt;
+            &lt;div class=&quot;embed-responsive embed-responsive-16by9 hidden-print&quot;&gt;
+                &lt;iframe src=&quot;https://www.youtube.com/embed/NpEaa2P7qZI?rel=0&amp;amp;modestbranding=1&amp;amp;wmode=opaque&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+            &lt;/div&gt;
+
+            &lt;!-- Update the following element with the url to the YouTube hosted video --&gt;
+            &lt;p class=&quot;d-none d-print-block&quot;&gt;https://www.youtube.com/embed/NpEaa2P7qZI?rel=0&lt;/p&gt;
+            &lt;div class=&quot;caption&quot;&gt;
+
+            &lt;!-- Update the following element with the name of the author and the narrator. Remove narrator if the author is the narrator. --&gt;
+                &lt;p class=&quot;my-1&quot;&gt;
+                    &lt;em&gt;By [first and last] for McMaster University CCE.&lt;br&gt;Narrated by [first and last].&lt;/em&gt;
+                &lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
 <h2 id="custom-css-classes">Custom CSS Classes</h2>
 
 <p>Custom CSS classes have been added to the stylesheet.</p>
@@ -451,7 +482,6 @@
 <h5 id="square">square</h5>
 
 <iframe width="100%" height="175" src="//jsfiddle.net/ccecrsdv/z0bhv5Ly/embedded/result,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
-   
 
 <h2 id="hyperlinks">Hyperlinks</h2>
 
@@ -461,12 +491,12 @@
 </div>
 
 
-<pre><code>&lt;a href=&quot;http://example.com&quot; target=&quot;_blank&quot;&gt;Example link&lt;span class=&quot;sr-only&quot;&gt; (opens in a new tab)&lt;/span&gt;&lt;/a&gt;
+<pre><code class="language-html">&lt;a href=&quot;http://example.com&quot; target=&quot;_blank&quot;&gt;Example link&lt;span class=&quot;sr-only&quot;&gt; (opens in a new tab)&lt;/span&gt;&lt;/a&gt;
 </code></pre>
 
 <p>Hyperlinks that are pointing to internal content, hosted in Avenue, should open in the same tab.</p>
 
-<pre><code>&lt;a href=&quot;http://example.com&quot;&gt;Example link&lt;/a&gt;
+<pre><code class="language-html">&lt;a href=&quot;http://example.com&quot;&gt;Example link&lt;/a&gt;
 </code></pre>
 
 <h2 id="evaluations-module">Evaluations Module</h2>
@@ -647,20 +677,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/cdd/js/clipboard.min.js?1550692774"></script>
-    <script src="/cdd/js/perfect-scrollbar.min.js?1550692774"></script>
-    <script src="/cdd/js/perfect-scrollbar.jquery.min.js?1550692774"></script>
-    <script src="/cdd/js/jquery.sticky.js?1550692774"></script>
-    <script src="/cdd/js/featherlight.min.js?1550692774"></script>
-    <script src="/cdd/js/html5shiv-printshiv.min.js?1550692774"></script>
-    <script src="/cdd/js/highlight.pack.js?1550692774"></script>
+    <script src="/cdd/js/clipboard.min.js?1560967230"></script>
+    <script src="/cdd/js/perfect-scrollbar.min.js?1560967230"></script>
+    <script src="/cdd/js/perfect-scrollbar.jquery.min.js?1560967230"></script>
+    <script src="/cdd/js/jquery.sticky.js?1560967230"></script>
+    <script src="/cdd/js/featherlight.min.js?1560967230"></script>
+    <script src="/cdd/js/html5shiv-printshiv.min.js?1560967230"></script>
+    <script src="/cdd/js/highlight.pack.js?1560967230"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/cdd/js/modernizr.custom.71422.js?1550692774"></script>
-    <script src="/cdd/js/learn.js?1550692774"></script>
-    <script src="/cdd/js/hugo-learn.js?1550692774"></script>
+    <script src="/cdd/js/modernizr.custom.71422.js?1560967230"></script>
+    <script src="/cdd/js/learn.js?1560967230"></script>
+    <script src="/cdd/js/hugo-learn.js?1560967230"></script>
 
-    <link href="/cdd/mermaid/mermaid.css?1550692774" type="text/css" rel="stylesheet" />
-    <script src="/cdd/mermaid/mermaid.js?1550692774"></script>
+    <link href="/cdd/mermaid/mermaid.css?1560967230" type="text/css" rel="stylesheet" />
+    <script src="/cdd/mermaid/mermaid.js?1560967230"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
