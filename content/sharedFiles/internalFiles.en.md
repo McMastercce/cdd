@@ -24,7 +24,7 @@ Below you will find details on where internal network share files are located an
       </tr>     
       <tr class="d-flex">
          <td class="col-4">N:\CCE Course Development\Courses</td>
-         <td class="col-8">Within a particular course folder there are course development files and a copy of all of the files as the appear in the Manage Files area of the course in Avenue.</td>
+         <td class="col-8">Within a particular course folder there are course development files and a copy of all of the files as they appear in the Manage Files area of the course in Avenue.</td>
       </tr>
       <tr class="d-flex">
          <td class="col-4">Google</td>

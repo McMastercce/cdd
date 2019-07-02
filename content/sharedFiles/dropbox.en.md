@@ -21,7 +21,7 @@ The files in the Dropbox get updated frequently. Always grab a new copy of these
       <tr class="d-flex">
          <td class="col-4">Default Turnitin Settings.docx</td>
          <td class="col-8">
-            Contains the standard Turnitin settings that we configure for all Assignment folders. If you did not receive any specific configuration settings for Turnitin in your course, refer to this document and deafult to these settings.
+            Contains the standard Turnitin settings that we configure for all Assignment folders. If you did not receive any specific configuration settings for Turnitin in your course, refer to this document and default to these settings.
          </td>
       </tr>
       <tr class="d-flex">

@@ -1,6 +1,6 @@
 ---
 title: Instructor Guides
-weight: 30
+weight: 40
 disableToc: false
 ---
 
@@ -8,7 +8,7 @@ The instructor guides need to be modified for each course.
 
 As of July 2019 instructor guides for all new courses are generated from content saved in a database on GitHub: <a href="https://github.com/McMastercce/avenue-content-library-database/blob/master/database.json" target="_blank">McMastercce / avenue-content-library-database</a>.
 
-Each content topic in Avenue (before.html, during.html, after.html etc.) uses a javascript application to pull the necessary items for that specific page from the database.
+Each content topic in Avenue (before.html, during.html, after.html etc.) uses a JavaScript application to pull the necessary items for that specific page from the database.
 
 ## Content Item Properties
 
@@ -22,7 +22,7 @@ The id property is a unique identifier for each content item. The application us
 
 The name property does not currently get displayed in Avenue. It's for organizational purposes.
 
-The markup property is a string with all of the HTML for the content item. It cannot inclide line breaks, and quotes need to be escaped.
+The markup property is a string with all of the HTML for the content item. It cannot include line breaks, and quotes need to be escaped.
 
 ## Example Topic in Avenue
 
@@ -49,10 +49,10 @@ The head element must include a global variable, "sections", with an array of co
 
 The body element must include the following items:
 
-* A div element with the id of "content-library". When the javascript application pulls the content items from the database, they will appear within this div element.
-* A reference to the javascript application.
+* A div element with the id of "content-library". When the JavaScript application pulls the content items from the database, they will appear within this div element.
+* A reference to the JavaScript application.
 * The jQuery file from Manage Files.
-* A javascript function to notify users if the application does not work.
+* A JavaScript function to notify users if the application does not work.
 
 ```html
 <body>

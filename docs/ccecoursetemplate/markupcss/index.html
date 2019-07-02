@@ -8,7 +8,7 @@
 <meta name="author" content="McMaster CCE Course Development Team">
 
     
-    <title>Program Colours :: McMaster CCE</title>
+    <title>Markup and CSS :: McMaster CCE</title>
 
     
     
@@ -43,7 +43,7 @@
 
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
-  <body class="" data-url="/cdd/ccecoursetemplate/programcolours/">
+  <body class="" data-url="/cdd/ccecoursetemplate/markupcss/">
     <nav id="sidebar" class="">
 
 
@@ -198,7 +198,7 @@
  
   
     
-      <li data-nav-id="/cdd/ccecoursetemplate/markupcss/" title="Markup and CSS" class="dd-item ">
+      <li data-nav-id="/cdd/ccecoursetemplate/markupcss/" title="Markup and CSS" class="dd-item active">
         <a href="/cdd/ccecoursetemplate/markupcss/">
         Markup and CSS
         
@@ -217,7 +217,7 @@
  
   
     
-      <li data-nav-id="/cdd/ccecoursetemplate/programcolours/" title="Program Colours" class="dd-item active">
+      <li data-nav-id="/cdd/ccecoursetemplate/programcolours/" title="Program Colours" class="dd-item ">
         <a href="/cdd/ccecoursetemplate/programcolours/">
         Program Colours
         
@@ -311,6 +311,8 @@
                         </a>
                     </span>
                   
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
                   <span class="links">
                  
                  
@@ -325,7 +327,7 @@
             
           
           
-            <a href='/cdd/'>Course Development Documentation</a> > <a href='/cdd/ccecoursetemplate/'>CCE Course Template</a> > Program Colours
+            <a href='/cdd/'>Course Development Documentation</a> > <a href='/cdd/ccecoursetemplate/'>CCE Course Template</a> > Markup and CSS
           
          
           
@@ -336,6 +338,40 @@
                   </span>
                 </div>
                 
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#markup-for-embedding-youtube-videos">Markup for Embedding YouTube Videos</a></li>
+<li><a href="#custom-css-classes">Custom CSS Classes</a>
+<ul>
+<li><a href="#list-types">List Types</a>
+<ul>
+<li><a href="#ordered">Ordered</a>
+<ul>
+<li><a href="#lower-alpha">lower-alpha</a></li>
+<li><a href="#upper-alpha">upper-alpha</a></li>
+<li><a href="#lower-roman">lower-roman</a></li>
+<li><a href="#upper-roman">upper-roman</a></li>
+</ul></li>
+<li><a href="#unordered">Unordered</a>
+<ul>
+<li><a href="#notype">noType</a></li>
+<li><a href="#circle">circle</a></li>
+<li><a href="#square">square</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><a href="#hyperlinks">Hyperlinks</a></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
               </div>
             </div>
             
@@ -343,21 +379,99 @@
         
         <div id="body-inner">
           
-            <h1>Program Colours</h1>
+            <h1>Markup and CSS</h1>
           
 
         
 
 
-<p>The following program colours are used in the CCE Templates.</p>
 
-<div class="notices note" ><p>The desaturated and secondary colours are not selectable as CSS classes.
-The secondary colour is used as the icon colours for certain headings.
-The desaturated colour is auto SASS generated based on the primary colour. It is used for table headings where text is white.</p>
+
+<h2 id="markup-for-embedding-youtube-videos">Markup for Embedding YouTube Videos</h2>
+
+<p>Copy and modify the following markup when embedding YouTube videos.</p>
+
+<pre><code class="language-html">&lt;div class=&quot;row justify-content-center&quot;&gt;
+    &lt;div class=&quot;col-sm-10&quot;&gt;
+        &lt;div class=&quot;card px-1&quot;&gt;
+
+            &lt;!-- Update the following line with the title of the video, the length of the video, and the transcript href --&gt;
+            &lt;p class=&quot;mb-1&quot;&gt;&lt;strong&gt;Module 1: Introduction&lt;/strong&gt; (1:18 min) | &lt;a href=&quot;../../media/html/m01-transcript-01.html&quot; target=&quot;_blank&quot;&gt;Transcript&lt;span class=&quot;sr-only&quot;&gt; (opens in a new tab)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+            
+            &lt;!-- Update the following element with the url to the YouTube hosted video --&gt;
+            &lt;div class=&quot;embed-responsive embed-responsive-16by9 hidden-print&quot;&gt;
+                &lt;iframe src=&quot;https://www.youtube.com/embed/NpEaa2P7qZI?rel=0&amp;amp;modestbranding=1&amp;amp;wmode=opaque&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+            &lt;/div&gt;
+
+            &lt;!-- Update the following element with the url to the YouTube hosted video --&gt;
+            &lt;p class=&quot;d-none d-print-block&quot;&gt;https://www.youtube.com/embed/NpEaa2P7qZI?rel=0&lt;/p&gt;
+            &lt;div class=&quot;caption&quot;&gt;
+
+            &lt;!-- Update the following element with the name of the author and the narrator. Remove narrator if the author is the narrator. --&gt;
+                &lt;p class=&quot;my-1&quot;&gt;
+                    &lt;em&gt;By [first and last] for McMaster University CCE.&lt;br&gt;Narrated by [first and last].&lt;/em&gt;
+                &lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<h2 id="custom-css-classes">Custom CSS Classes</h2>
+
+<p>Custom CSS classes have been added to the stylesheet.</p>
+
+<h3 id="list-types">List Types</h3>
+
+<p>The list type attribute is obsolete. To accomodate custom list types the following classes are available.</p>
+
+<h4 id="ordered">Ordered</h4>
+
+<h5 id="lower-alpha">lower-alpha</h5>
+
+<iframe width="100%" height="175" src="//jsfiddle.net/ccecrsdv/kLo24gxr/embedded/result,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<h5 id="upper-alpha">upper-alpha</h5>
+
+<iframe width="100%" height="175" src="//jsfiddle.net/ccecrsdv/dLwhxv27/embedded/result,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<h5 id="lower-roman">lower-roman</h5>
+
+<iframe width="100%" height="175" src="//jsfiddle.net/ccecrsdv/kr2fx37q/embedded/result,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<h5 id="upper-roman">upper-roman</h5>
+
+<iframe width="100%" height="175" src="//jsfiddle.net/ccecrsdv/r6nezstL/embedded/result,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<h4 id="unordered">Unordered</h4>
+
+<h5 id="notype">noType</h5>
+
+<iframe width="100%" height="175" src="//jsfiddle.net/ccecrsdv/751qomuL/embedded/result,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<h5 id="circle">circle</h5>
+
+<iframe width="100%" height="175" src="//jsfiddle.net/ccecrsdv/7vhqaz36/embedded/result,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<h5 id="square">square</h5>
+
+<iframe width="100%" height="175" src="//jsfiddle.net/ccecrsdv/z0bhv5Ly/embedded/result,html/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<h2 id="hyperlinks">Hyperlinks</h2>
+
+<p>Hyperlinks that are pointing to external content, not hosted in Avenue, must open in a new tab. They must also include an additional class and text for screen readers in a &lt;span&gt; attribute.</p>
+
+<div class="notices info" ><p>The &lt;span&gt; attribute should not be included on any hyperlinks that don&rsquo;t have the cce stylesheet attached. For example, if there is a link in the description of a discussion topic, exclude the &lt;span&gt; attribute.</p>
 </div>
 
 
-<script async src="//jsfiddle.net/ccecrsdv/kws0bmv9/embed/result/"></script>
+<pre><code class="language-html">&lt;a href=&quot;http://example.com&quot; target=&quot;_blank&quot;&gt;Example link&lt;span class=&quot;sr-only&quot;&gt; (opens in a new tab)&lt;/span&gt;&lt;/a&gt;
+</code></pre>
+
+<p>Hyperlinks that are pointing to internal content, hosted in Avenue, should open in the same tab.</p>
+
+<pre><code class="language-html">&lt;a href=&quot;http://example.com&quot;&gt;Example link&lt;/a&gt;
+</code></pre>
 
 
 <footer class=" footline" >
@@ -480,22 +594,6 @@ The desaturated colour is auto SASS generated based on the primary colour. It is
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
                     
                 
                 
@@ -515,6 +613,22 @@ The desaturated colour is auto SASS generated based on the primary colour. It is
                     
                         
                         
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
                     
                 
                 
@@ -556,20 +670,20 @@ The desaturated colour is auto SASS generated based on the primary colour. It is
      <div class="row justify-content-center row-eq-height mb-5 mx-0">
                      
             <div class="col-6 col-sm-5">
-                <a class="row nav nav-prev d-flex align-items-center py-3 m-0" href="/cdd/ccecoursetemplate/markupcss/" title="Markup and CSS">
+                <a class="row nav nav-prev d-flex align-items-center py-3 m-0" href="/cdd/ccecoursetemplate/gettingstarted/" title="Getting Started">
                     <div class="col-4">
                         <span class="fa fa-4x fa-chevron-left"></span>
                     </div>
                     <div class="col-8">
-                        <p class=" m-0">Markup and CSS</p>
+                        <p class=" m-0">Getting Started</p>
                     </div>
                 </a>
             </div>
              
             <div class="col-6 col-sm-5">
-                <a class="row nav nav-next d-flex align-items-center py-3 m-0" href="/cdd/ccecoursetemplate/instructorguides/" title="Instructor Guides">
+                <a class="row nav nav-next d-flex align-items-center py-3 m-0" href="/cdd/ccecoursetemplate/programcolours/" title="Program Colours">
                     <div class="col-8">
-                        <p class="text-right m-0">Instructor Guides</p>
+                        <p class="text-right m-0">Program Colours</p>
                     </div>
                     <div class="col-4 text-right">
                         <span class="fa fa-4x fa-chevron-right"></span>

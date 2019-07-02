@@ -8,7 +8,7 @@
 <meta name="author" content="McMaster CCE Course Development Team">
 
     
-    <title>Program Colours :: McMaster CCE</title>
+    <title>Getting Started :: McMaster CCE</title>
 
     
     
@@ -43,7 +43,7 @@
 
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
-  <body class="" data-url="/cdd/ccecoursetemplate/programcolours/">
+  <body class="" data-url="/cdd/ccecoursetemplate/gettingstarted/">
     <nav id="sidebar" class="">
 
 
@@ -179,7 +179,7 @@
  
   
     
-      <li data-nav-id="/cdd/ccecoursetemplate/gettingstarted/" title="Getting Started" class="dd-item ">
+      <li data-nav-id="/cdd/ccecoursetemplate/gettingstarted/" title="Getting Started" class="dd-item active">
         <a href="/cdd/ccecoursetemplate/gettingstarted/">
         Getting Started
         
@@ -217,7 +217,7 @@
  
   
     
-      <li data-nav-id="/cdd/ccecoursetemplate/programcolours/" title="Program Colours" class="dd-item active">
+      <li data-nav-id="/cdd/ccecoursetemplate/programcolours/" title="Program Colours" class="dd-item ">
         <a href="/cdd/ccecoursetemplate/programcolours/">
         Program Colours
         
@@ -311,6 +311,8 @@
                         </a>
                     </span>
                   
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
                   <span class="links">
                  
                  
@@ -325,7 +327,7 @@
             
           
           
-            <a href='/cdd/'>Course Development Documentation</a> > <a href='/cdd/ccecoursetemplate/'>CCE Course Template</a> > Program Colours
+            <a href='/cdd/'>Course Development Documentation</a> > <a href='/cdd/ccecoursetemplate/'>CCE Course Template</a> > Getting Started
           
          
           
@@ -336,6 +338,21 @@
                   </span>
                 </div>
                 
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#manage-files">Manage Files</a></li>
+<li><a href="#evaluations-module">Evaluations Module</a></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
               </div>
             </div>
             
@@ -343,21 +360,64 @@
         
         <div id="body-inner">
           
-            <h1>Program Colours</h1>
+            <h1>Getting Started</h1>
           
 
         
 
 
-<p>The following program colours are used in the CCE Templates.</p>
 
-<div class="notices note" ><p>The desaturated and secondary colours are not selectable as CSS classes.
-The secondary colour is used as the icon colours for certain headings.
-The desaturated colour is auto SASS generated based on the primary colour. It is used for table headings where text is white.</p>
+
+<p>Before beginning integration, copy all components from the CCE Course Template in Avenue into your course master shell.</p>
+
+<div class="notices note" ><p>If you are not able to access the CCE Course Template in Avenue contact an LST. You are required to have a MacID to access Avenue.</p>
 </div>
 
 
-<script async src="//jsfiddle.net/ccecrsdv/kws0bmv9/embed/result/"></script>
+<h2 id="manage-files">Manage Files</h2>
+
+<p>The following table provides a breakdown of the various files and folders in the Manage Files(Course Admin &gt; Manage Files) area of the CCE Course Template.</p>
+
+<table class="table table-bordered table-striped table-sm">
+   <caption class="sr-only">
+      The first column lists the Folder Name. The second column provides a summary of what is in each folder.
+   </caption>
+   <thead>
+      <tr class="d-flex">
+         <th class="col-4" scope="col">Location</th>
+         <th class="col-8" scope="col">Purpose</th>
+      </tr>
+   </thead>
+   <tbody>      
+      <tr class="d-flex">
+         <td class="col-4">Avenue/code</td>
+         <td class="col-8">CSS, javascript and icon code files.</td>
+      </tr>
+      <tr class="d-flex">
+         <td class="col-4">Avenue/code/css</td>
+         <td class="col-8">
+            CSS and font icon files.
+            <br>
+            <div class="spacer-xs-6 spacer-sm-7 spacer-md-8"></div>
+            All HTML pages refer to the <strong>main.min.css</strong> for styling. You will also find additional main.min.css(program) files. These are not linked to any HTML files. Based on the course that you are working on, rename the file that you need. For example for a business course I would rename "main.min.css(business)" to "main.min.css".
+         </td>
+      </tr>
+      <tr class="d-flex">
+         <td class="col-4">Avenue/toc</td>
+         <td class="col-8">Module pages that appear directly in the table of contents are stored here.</td>
+      </tr>
+      <tr class="d-flex">
+         <td class="col-4">Avenue/media</td>
+         <td class="col-8">Any additional files in the course such as images, documents or html pages that are hyperlinked from a module are stored here. This includes readings and transcripts.</td>
+      </tr>
+   </tbody>
+</table>
+
+<h2 id="evaluations-module">Evaluations Module</h2>
+
+<p>The files in this module should be Word files (.doc or .docx) unless otherwise specified by the ID.</p>
+
+<p>Browse through the CCE Course Template content to familiarize yourself with the structure of a page.</p>
 
 
 <footer class=" footline" >
@@ -461,6 +521,23 @@ The desaturated colour is auto SASS generated based on the primary colour. It is
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
                         
                         
                     
@@ -495,26 +572,6 @@ The desaturated colour is auto SASS generated based on the primary colour. It is
             
             
                 
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
                     
                 
                 
@@ -556,20 +613,20 @@ The desaturated colour is auto SASS generated based on the primary colour. It is
      <div class="row justify-content-center row-eq-height mb-5 mx-0">
                      
             <div class="col-6 col-sm-5">
-                <a class="row nav nav-prev d-flex align-items-center py-3 m-0" href="/cdd/ccecoursetemplate/markupcss/" title="Markup and CSS">
+                <a class="row nav nav-prev d-flex align-items-center py-3 m-0" href="/cdd/ccecoursetemplate/" title="CCE Course Template">
                     <div class="col-4">
                         <span class="fa fa-4x fa-chevron-left"></span>
                     </div>
                     <div class="col-8">
-                        <p class=" m-0">Markup and CSS</p>
+                        <p class=" m-0">CCE Course Template</p>
                     </div>
                 </a>
             </div>
              
             <div class="col-6 col-sm-5">
-                <a class="row nav nav-next d-flex align-items-center py-3 m-0" href="/cdd/ccecoursetemplate/instructorguides/" title="Instructor Guides">
+                <a class="row nav nav-next d-flex align-items-center py-3 m-0" href="/cdd/ccecoursetemplate/markupcss/" title="Markup and CSS">
                     <div class="col-8">
-                        <p class="text-right m-0">Instructor Guides</p>
+                        <p class="text-right m-0">Markup and CSS</p>
                     </div>
                     <div class="col-4 text-right">
                         <span class="fa fa-4x fa-chevron-right"></span>
