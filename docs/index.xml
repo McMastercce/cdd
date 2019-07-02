@@ -11,17 +11,6 @@
     
     
     <item>
-      <title>CCE Course Template</title>
-      <link>https://mcmastercce.github.io/cdd/ccecoursetemplate/ccetemplate/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcmastercce.github.io/cdd/ccecoursetemplate/ccetemplate/</guid>
-      <description>Before beginning integration, copy all components from the CCE Course Template in Avenue into your course master shell.
-If you are not able to access the CCE Course Template in Avenue contact an LST. You are required to have a MacID to access Avenue.
-Manage Files The following table provides a breakdown of the various files and folders in the Manage Files(Course Admin &amp;gt; Manage Files) area of the CCE Course Template.</description>
-    </item>
-    
-    <item>
       <title>Dropbox</title>
       <link>https://mcmastercce.github.io/cdd/sharedfiles/dropbox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -30,6 +19,17 @@ If you are not able to access the CCE Course Template in Avenue contact an LST. 
       <description>We use Dropbox to share files. The following table lists the files that you will use for integration located in the Dropbox/CCE Development - Templates/6. LST Templates folder. If you have not been added to our Dropbox contact an LST.
 The files in the Dropbox get updated frequently. Always grab a new copy of these files before beginning integration of a course.
  Location Purpose    Default Turnitin Settings.</description>
+    </item>
+    
+    <item>
+      <title>Information</title>
+      <link>https://mcmastercce.github.io/cdd/ccecoursetemplate/ccetemplate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcmastercce.github.io/cdd/ccecoursetemplate/ccetemplate/</guid>
+      <description>Before beginning integration, copy all components from the CCE Course Template in Avenue into your course master shell.
+If you are not able to access the CCE Course Template in Avenue contact an LST. You are required to have a MacID to access Avenue.
+Manage Files The following table provides a breakdown of the various files and folders in the Manage Files(Course Admin &amp;gt; Manage Files) area of the CCE Course Template.</description>
     </item>
     
     <item>
@@ -52,6 +52,18 @@ The files in the Dropbox get updated frequently. Always grab a new copy of these
       <description>The following program colours are used in the CCE Templates.
 The desaturated and secondary colours are not selectable as CSS classes. The secondary colour is used as the icon colours for certain headings. The desaturated colour is auto SASS generated based on the primary colour. It is used for table headings where text is white.
  </description>
+    </item>
+    
+    <item>
+      <title>Instructor Guides</title>
+      <link>https://mcmastercce.github.io/cdd/ccecoursetemplate/instructorguides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcmastercce.github.io/cdd/ccecoursetemplate/instructorguides/</guid>
+      <description>The instructor guides need to be modified for each course.
+As of July 2019 instructor guides for all new courses are generated from content saved in a database on GitHub: McMastercce / avenue-content-library-database.
+Each content topic in Avenue (before.html, during.html, after.html etc.) uses a javascript application to pull the necessary items for that specific page from the database.
+Content Item Properties Each content item in the database has the following properties:</description>
     </item>
     
   </channel>

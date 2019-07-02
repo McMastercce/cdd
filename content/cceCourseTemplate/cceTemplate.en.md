@@ -1,5 +1,5 @@
 ---
-title: CCE Course Template
+title: Information
 weight: 10
 disableToc: false
 ---

@@ -3,11 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mcmastercce.github.io/cdd/ccecoursetemplate/ccetemplate/</loc>
+    <loc>https://mcmastercce.github.io/cdd/sharedfiles/dropbox/</loc>
   </url>
   
   <url>
-    <loc>https://mcmastercce.github.io/cdd/sharedfiles/dropbox/</loc>
+    <loc>https://mcmastercce.github.io/cdd/ccecoursetemplate/ccetemplate/</loc>
   </url>
   
   <url>
@@ -28,6 +28,10 @@
   
   <url>
     <loc>https://mcmastercce.github.io/cdd/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mcmastercce.github.io/cdd/ccecoursetemplate/instructorguides/</loc>
   </url>
   
   <url>
