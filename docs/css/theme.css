@@ -402,7 +402,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 #body .nav:hover {
     background: #F6F6F6;
 }
-#body .nav.nav-pref {
+#body .nav.nav-prev {
     left: 0;
 }
 #body .nav.nav-next {

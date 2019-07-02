@@ -115,3 +115,25 @@ a:hover {
     border-color: var(--MENU-SECTION-HR-color);
 }
 
+#body #navigation {
+    position: static;
+    margin-right: 0 !important;
+    width: 100%;
+    display: table;
+}
+
+#body .nav {
+    display: inherit;
+    position: inherit;
+    top: inherit;
+    width: inherit;
+    font-size: inherit;
+    text-align: inherit;
+    height: inherit;
+    line-height: inherit;
+    padding-top: inherit;
+}
+#body .nav > i {
+    display: inherit;
+}
+
