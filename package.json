@@ -1,0 +1,11 @@
+{
+    "name": "CDD",
+    "version": "1.0.0",
+    "description": "CDD",
+    "private": true,
+    "scripts": {},
+    "dependencies": {
+        "postcss-cli": "^6.1.2"
+    },
+    "devDependencies": {}
+}
